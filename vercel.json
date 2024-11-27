@@ -1,8 +1,7 @@
 {
-  "version": 2,
   "rewrites": [
     {
-      "source": "/:path*",
+      "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
