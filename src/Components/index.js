@@ -28,6 +28,7 @@ import ResetPassword from "./ResetPassword/ResetPassword";
 import EmailVerifyBtn from "./EmailVerifyBtn/EmailVerifyBtn";
 import OrderDetails from "./Account/oders/OrderDetails";
 import Product from "./product/Product";
+import Notfound from "./NotFound/Notfound";
 export {
   Product,
   StarRating,
@@ -59,4 +60,5 @@ export {
   ResetPassword,
   EmailVerifyBtn,
   OrderDetails,
+  Notfound,
 };

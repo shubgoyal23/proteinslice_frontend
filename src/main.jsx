@@ -26,6 +26,7 @@ import {
   ResetPassword,
   OrderDetails,
   Product,
+  Notfound
 } from "./Components/index";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App";
@@ -63,6 +64,7 @@ const router = createBrowserRouter([
       { path: "/forgot-password", element: <SendResetMail /> },
       { path: "/reset-password", element: <ResetPassword /> },
       { path: "/product", element: <Product /> },
+      { path: "*", element: <Notfound /> },
     ],
   },
 ]);
